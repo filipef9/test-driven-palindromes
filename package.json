@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/filipef9/test-driven-palindromes#readme",
   "devDependencies": {
+    "eslint": "^5.10.0",
     "jest": "^23.6.0"
   }
 }
