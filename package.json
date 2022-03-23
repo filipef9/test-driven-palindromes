@@ -5,7 +5,9 @@
   "description": "Book: Test-Drive React - Find Problems Early, Fix Them Quicky, Code with Confidence",
   "main": "index.js",
   "scripts": {
-    "test:dev": "jest --watchAll"
+    "test:dev": "jest --watchAll",
+    "lint": "eslint && prettier-eslint --list-different **/*.js",
+    "format": "prettier-eslint --write **/*.js"
   },
   "repository": {
     "type": "git",
